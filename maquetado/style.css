@@ -1,0 +1,188 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+nav .img3 {
+  height: 40px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.navbar {
+  border-bottom: 1px solid rgb(145, 142, 142);
+  height: 80px;
+}
+
+.img1 {
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 20px;
+  height: 30px;
+}
+
+nav .span1 {
+  text-align: center;
+  padding-top: 28px;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.is-two-thirds {
+  padding-right: 0;
+}
+
+.split {
+  padding-top: 15px;
+  padding-left: 8px;
+  font-weight: 900;
+  font-size: 2em;
+}
+
+.bd-breadcrumb {
+  margin-top: 3em;
+  margin-left: 2em;
+}
+
+.bd-breadcrumb ul li {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.bd-breadcrumb ul li::before {
+  content: " ";
+}
+
+i {
+  height: 20px;
+}
+
+.cont1 {
+  padding-bottom: 30px;
+}
+
+.cont1 h4 {
+  display: inline;
+}
+
+.cont1 img {
+  padding-right: 10px;
+}
+
+.content {
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+.content p {
+  padding-top: 10px;
+}
+
+.container1 {
+  height: 60px;
+  background-color: #ebfcdd;
+}
+
+.sty {
+  color: green;
+  font-size: 1.5em;
+  margin: 30px;
+  padding-top: 10px;
+}
+
+.content1 {
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+}
+
+.styl {
+  font-size: 0.8em;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.space {
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 0.8em;
+}
+
+.is-spaced {
+  padding-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 0.9em;
+  padding-bottom: 18px;
+}
+
+.level {
+  border-bottom: 1px solid gray;
+  padding-left: 5px;
+}
+
+.box {
+  margin: 20px;
+  height: 200px;
+  display: flex;
+  border: 0.2px solid gray;
+  border-radius: 0;
+}
+
+.input {
+  text-align: center;
+  padding: 0;
+}
+
+.size {
+  width: 80px;
+  margin-left: 50px;
+}
+
+.size1 {
+  margin-left: 60px;
+}
+
+.size2 {
+  border-left: 1px solid gray;
+  margin-left: 60px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+}
+.container {
+  margin-top: 40px;
+  padding-top: 40px;
+  margin-left: 60px;
+}
+
+.tex p {
+  padding-top: 100px;
+}
+
+.container li {
+  margin-bottom: 30px;
+}
+
+.texo {
+  font-size: 0.8em;
+}
+
+.cont1 h5 {
+  display: inline;
+}
+
+.flexo {
+  display: flex;
+}
+
+.is-half {
+  margin-top: 30px;
+  padding-left: 50px;
+}
