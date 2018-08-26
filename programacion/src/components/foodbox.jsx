@@ -4,7 +4,7 @@ import "./foodbox.css";
 class FoodBox extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container size">
         {/* this shows all the menu */}
         {this.props.foods.map(foods => (
           <div className="box size" key={foods.id}>
@@ -28,8 +28,8 @@ class FoodBox extends Component {
                   <div className="control">
                     <input
                       className="input"
-                      value={this.props.qty}
                       type="number"
+                      value={this.props.qty}
                       onChange={e => {
                         this.props.onChange(e);
                       }}
@@ -41,7 +41,8 @@ class FoodBox extends Component {
                       onClick={() =>
                         this.props.displayObjectOrder(
                           foods.name,
-                          this.props.qty
+                          this.props.qty,
+                          foods.id
                         )
                       }
                     >
